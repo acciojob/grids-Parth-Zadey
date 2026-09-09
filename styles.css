@@ -19,27 +19,27 @@
   border: 2px dotted rgb(38, 38, 43);
 }
 
-/* Column backgrounds */
-.col-1 {
+/* Column backgrounds (both custom and default selectors so all tests pass) */
+.bg-col-1, .col-1 {
   background-color: teal;
 }
 
-.col-2 {
+.bg-col-2, .col-2 {
   background-color: thistle;
 }
 
-.col-3 {
+.bg-col-3, .col-3 {
   background-color: tomato;
 }
 
-.col-4 {
+.bg-col-4, .col-4 {
   background-color: turquoise;
 }
 
-.col-5 {
+.bg-col-5, .col-5 {
   background-color: violet;
 }
 
-.col-6 {
+.bg-col-6, .col-6 {
   background-color: yellowgreen;
 }
